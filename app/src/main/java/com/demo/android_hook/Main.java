@@ -5,7 +5,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 import com.demo.android_hook.hook.AliPayHook;
-import com.demo.android_hook.util.StringConstant;
+import com.demo.android_hook.utils.StringConstant;
 
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XC_MethodHook;
@@ -20,11 +20,13 @@ public class Main implements IXposedHookLoadPackage {
     private boolean ALIPAY_PACKAGE_ISHOOK = false;
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
-
+        XposedBridge.log("xposed main");
         String packageName = lpparam.packageName;
         String processName = lpparam.processName;
-
+        XposedBridge.log("xposed main"+packageName);
+        XposedBridge.log("xposed main"+processName);
         if (StringConstant.ALIPAY_PACKAGE.equals(packageName)) {
+            XposedBridge.log("xposed main ddddd"+packageName);
             hookAliPay(lpparam, processName);
         }
     }

@@ -18,7 +18,8 @@
             android:value="this is a xposed demo" />
         <meta-data
             android:name="xposedminversion"
-            android:value="30" />
+            android:value="54" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,6 +27,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

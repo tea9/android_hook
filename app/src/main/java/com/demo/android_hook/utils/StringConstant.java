@@ -1,4 +1,4 @@
-package com.demo.android_hook.util;
+package com.demo.android_hook.utils;
 
 /**
  * created by tea9 at 2019/1/23
