@@ -21,12 +21,7 @@ public class StringConstant {
     public static final String WECHAT_PACKAGE = "com.tencent.mm";
     public static final String XShareFlag = "bbplayer";
     public static final String YSESTART_ACTION = "com.sytpay.yse.start";
-    public static final String YSE_GETPAY = "com.ysepay.mobileswipcard.activity.PosMakeCollections_V2";
-    public static final String YSE_HTML_ACTIVITY = "com.ysepay.mobileportal.activity.html.JsBridgeHtml";
-    public static final String YSE_INDEX_FRAGMENT = "com.ysepay.mobileportal.activity.FragmentPage1";
-    public static final String YSE_MainTabActivity = "com.ysepay.mobileportal.activity.MainTabActivity";
-    public static final String YSE_PACKAGE_NAME = "com.ysepay.mobileportal.activity";
-    public static final String YSE_PAYRES = "com.ysepay.mobileportal.util.VoicePromptTools";
+
 
     public interface TRANSFER {
         public static final String BALANCE = "balance";
